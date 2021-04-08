@@ -20,7 +20,6 @@ class User(db.Model):
             "email": self.email           
         }
 
-
 class People(db.Model):
     __tablename__ = 'people'
     id = db.Column(db.Integer, primary_key=True)
